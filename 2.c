@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,a,b,c,d;
+	i=j=a=b=c=1;
+	while(i++<=5)
+	{
+		while(j<=5)
+		{
+			while(a<=5)
+			{
+				while(b<=5)
+				{
+					while(c<=5)
+					{
+						{
+						printf("%d %d %d %d %d\n", i,j++,a++,b++,c++);
+						}
+				}
+			}
+		}
+	}
+}
+}
+
